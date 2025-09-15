@@ -1,0 +1,159 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 0.75em;
+    color: #1a202c;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+/* Paragraphs */
+p {
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover, a:focus {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+/* Lists */
+ul{
+    margin-left: 2em;
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+    background: #fff;
+}
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 0.75em;
+    text-align: left;
+}
+th {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+
+/* Forms */
+form {
+    margin-bottom: 2em;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background: #fff;
+    transition: border-color 0.2s;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+button {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+button:hover, button:focus {
+    background-color: #1e40af;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #2563eb;
+    background: #f1f5f9;
+    padding: 1em;
+    margin: 1em 0;
+    font-style: italic;
+    color: #374151;
+}
+
+/* Code */
+pre, code {
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    background: #f3f4f6;
+    color: #1e293b;
+    border-radius: 4px;
+}
+pre {
+    padding: 1em;
+    overflow-x: auto;
+    margin-bottom: 1em;
+}
+code {
+    padding: 0.2em 0.4em;
+    font-size: 0.95em;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    border-top: 1px solid #dee2e6;
+    margin: 2em 0;
+}
+
+/* Container utility */
+.container {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 0 1em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(30, 41, 59, 0.06);
+}
