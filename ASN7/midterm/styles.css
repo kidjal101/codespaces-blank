@@ -1,0 +1,176 @@
+body{ 
+background: linear-gradient(to bottom, #F5FD05, #FAFE81); 
+  margin: 0; 
+   text-align: center;
+    align-items: center;
+	
+}
+
+h1 {
+
+color:#FFFCFA;
+background-color: #000000;
+ 
+   color:White;
+	margin: 20px;
+  padding: 10px;
+  border-radius: 50px; 
+  border: 5px solid yellow;
+}
+
+
+form {
+  background-color: #9A8D01;
+  color: #333; 
+  margin: 40px auto;
+  padding: 30px;
+  width: 500px;
+  border-radius: 20px;
+  border: 5px solid #333;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="file"],
+form input[type="range"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+.highlight {
+    width: 200px;
+    height: auto
+	 align-items: center;
+		
+}
+form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+form legend {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+form .section {
+  margin-bottom: 25px;
+}
+
+
+}
+
+
+ 
+
+.highlight {
+    width: 200px;
+    height: auto
+	 align-items: center;
+		
+}
+
+ul {
+list-style-type: none;
+}
+
+h5 {
+	background-color: #000000;
+	color:White;
+	margin: 20px;
+  padding: 20px;
+  border-radius: 10px; 
+  border: 5px solid yellow;
+  list-style-type: none;
+}
+
+header { 
+background-color: #FFFB13;
+	color:Black;
+  padding: -1px;
+  border-radius: 10px; 
+  border: 5px solid black; 
+}
+
+main {
+	background: linear-gradient(to bottom, #F9FD07, #FCFD9F);
+	color:Black;
+	margin: 20px;
+  padding: -1px;
+  border-radius: 50px; 
+  border: 5px solid #A88C03;
+}
+section {
+	background: linear-gradient(to bottom, #FCFC05, #F5CC00);
+	color:Black;
+	margin: 20px;
+  padding: 5px;
+  border-radius: 50px; 
+  border: 5px solid #A88C03;
+  list-style-type: none;
+}
+	
+	.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  background-color: #CCBB01; 
+  border: 5px solid black;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: Black;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav-menu a:hover {
+  background-color: #9E9001; 
+  border-radius: 5px;
+}
+
+.vertical-menu a {
+	list-style: none;
+	text-decoration: none;
+  display: block;
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.vertical-menu a:hover {
+  background-color: #E5D205; 
+  border-radius: 10px;
+   padding: 10px;
+}
