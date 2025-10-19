@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #730001;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #400001;
+}
+
+/* For viewport width 600px or less, make the menu links stack on top of each other */
+@media screen and (max-width: 600px) {
+  ul {flex-direction: column;}
+}
