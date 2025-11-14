@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-4">
+    <h1 class="mb-0">Bootstrap Assignment</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.w3schools.com/bootstrap5/" target="_blank">W3Schools</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <section class="spacious">
+      <h2 class="mb-3">Main 1</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>Meals of the Day</th>
+              <th>Description of the Meals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Breakfast</td>
+              <td>The first meal of the day, very important.</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>The second meal of the day not as important as the other two.</td>
+            </tr>
+            <tr>
+              <td>Dinner</td>
+              <td>The last meal of the day, also very important.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+ <section class="spacious">
+      <h2 class="mb-3">Main 2</h2>
+      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+         
+          <div class="carousel-item active">
+            <img src="images/Burger.webp" class="d-block w-100" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Burger2.webp" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Burger3.webp" class="d-block w-100" alt="Image 3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Burger4.webp" class="d-block w-100" alt="Image 4">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Burger5.webp" class="d-block w-100" alt="Image 5">
+          </div>
+        </div>
+
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="bg-light text-center py-4">
+    <p class="mb-0">Made by Jalen Anderson</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
